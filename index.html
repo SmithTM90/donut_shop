@@ -5,7 +5,18 @@
   </head>
   <body>
     <h1>Daily Donut Demand</h1>
-      <p>This is a simple, visual representation of donut sales throughout the day. The JS isn't working 100% correctly, but my brain is fried and I will come back to it tomorrow. This is just the version to be turned in today Aug 10th so that it is on time.</p>
+      <p>This is a simple, visual representation of donut sales throughout the day. Now, a poem.
+      I turned around the corner
+      walked down the block
+      walked right in to a donut shop
+      pulled two donuts right out of the grease
+      handed the lady a five cent piece
+      she looked and the nickel and looked at me
+      said "this nickel's no good to me"
+      "there's a hole in the nickel and that won't do!"
+      I said "Ay! Theres a hole in a donut too!"
+       </p>
+
   <table id = "shop-list" border = 2px>
     <tr id = "times">
       <th id = "location">Location</th>
@@ -20,11 +31,29 @@
       <th class = "time-of-day">3:00pm</th>
       <th class = "time-of-day">4:00pm</th>
       <th class = "time-of-day">5:00pm</th>
-      <th class = "time-of-day">6:00pm</th>
       <th id = "daily-total">Daily Total</th>
     </tr>
   </table>
 
+<form id = "newShop">
+  <label for="shoplocation">Location: </label>
+
+  <input id = "shoplocation" type = "text">
+
+  <label for="mincust">Min. Customers per hour: </label>
+
+  <input id = "mincust" type = "text">
+
+  <label for="maxcust">Max. Customers per hour: </label>
+
+  <input id = "maxcust" type = "text">
+
+  <label for="avgdon">Average donuts per customer
+
+  <input id = "avgdon" type = "text">
+
+  <button id="btn" type="submit">Add Donut Shop</button>
+</form>
 
 
   <script src="main.js"></script>
