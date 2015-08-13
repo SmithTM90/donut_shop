@@ -1,0 +1,60 @@
+body {
+    background-image: url("img/graybg.jpg");
+    background-size: cover;
+    font-family: 'Special Elite', cursive;
+  }
+
+h1 {
+  color: #cef09d;
+  text-align: center;
+}
+
+p {
+  background-color:;
+  color:white;
+  font-size: 20px;
+}
+
+table {
+  width:1000px;
+  color: #476c5e;
+  border-style: hidden;
+  margin-left:auto;
+  margin-right:auto;
+  }
+
+.time-of-day{
+  border-style: double;
+  padding:3px;
+  text-align:center;
+}
+
+#daily-total {
+  border-style: double;
+}
+
+#times {
+  border-style: double;
+}
+
+td {
+  border-style: double;
+  color: #b1e001;
+  padding:5px;
+  text-align:center;
+}
+
+#btn {
+  border-radius: 25px;
+}
+
+#newShop {
+  color: #476c5e;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+
+
+
