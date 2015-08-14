@@ -1,27 +1,59 @@
 body {
-    background-image: url("img/graybg.jpg");
+    background-image: url("img/skulls.png");
     background-size: cover;
     font-family: 'Special Elite', cursive;
+    width:100%;
   }
 
 h1 {
-  color: #cef09d;
+  color: #f2ddb6;
+  background-color: #01420C;
   text-align: center;
+  width: 100%;
+  border: solid 2px #014034;
+  padding-top: 0.5%;
+  position:fixed;
+  top:0%;
+  z-index: 1;
 }
 
-p {
+#poem {
+  margin-top: 6%;
   background-color:;
-  color:white;
+  color:#01420C;
   font-size: 20px;
+  width:64%;
+  position: relative;
+  left:4%
+
 }
 
 table {
-  width:1000px;
+  width:75%;
   color: #476c5e;
   border-style: hidden;
   margin-left:auto;
-  margin-right:auto;
+  margin-right:4%;
   }
+
+#newShop {
+  position:absolute;
+  right:1100px;
+  top:310px;
+  left:20px;
+  color: #476c5e;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#ipsum {
+  color:#01420C;
+  font-size:18px;
+  width:70%;
+  position:relative;
+  left:22%;
+}
+
 
 .time-of-day{
   border-style: double;
@@ -39,7 +71,7 @@ table {
 
 td {
   border-style: double;
-  color: #b1e001;
+  color: black;
   padding:5px;
   text-align:center;
 }
@@ -47,14 +79,20 @@ td {
 #btn {
   border-radius: 25px;
 }
+ #shopForm {
+  float:left;
+ }
 
-#newShop {
-  color: #476c5e;
-  margin-left:auto;
-  margin-right:auto;
+#donut {
+  float:left;
 }
 
-
-
+#footer {
+  color: #f2ddb6;
+  background-color: #01420c;
+  height:20px;
+  padding-top:7px;
+  text-align: center;
+}
 
 
